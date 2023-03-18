@@ -1,0 +1,1319 @@
+{
+    "intents":[
+        {
+            "tag":"insultos",
+            "patterns":[
+                "estupida",
+                "estupido",
+                "tonto",
+                "tonta",
+                "ctm",
+                "csm",
+                "nopo wn",
+                "imbecil",
+                "idiota",
+                "subnormal",
+                "retrasado",
+                "retrasada",
+                "retrasada mental",
+                "retrasado mental" 
+            ],
+            "responses":[
+                "Lo siento pero no voy hablar con alguien que me trata mal, adi\u00f3s",
+                "Disculpe pero no voy hablar ni responder dudas con alguien que insulta, adi\u00f3s",
+                "Me temo que las palabras que est\u00e1 utilizando no son educadas, me tengo que despedir" 
+            ]
+        },{
+            "tag":"disculpas",
+            "patterns":[
+                "Pido perdon",
+                "perdon",
+                "te pido disculpas",
+                "perdoname",
+                "lo siento",
+                "perdoname",
+                "te pido perdon"
+            ],
+            "responses":[
+                "Est\u00e1 bien, le perdono",
+                "Entiendo, todos nos equivocamos",
+                "Acepto sus disculpas" 
+            ]
+        },
+        {
+            "tag":"agradecimiento",
+            "patterns":[
+                "gracias",
+                "muchas gracias",
+                "te agradezco",
+                "vale",
+                "entiendo",
+                "comprendo"
+            ],
+            "responses":[
+                "\u00a1No hay de qu\u00e9! Estoy para ayudarle",
+                "\u00a1Un placer! \u00bfQu\u00e9 otra cosa quiere saber?",
+                "\u00a1Para eso estoy!",
+                "Gracias usted por hablar conmigo",
+                "\u00a1Cuando quiera!",
+                "Cuando tenga otra pregunta, aqu\u00ed estar\u00e9",
+                "\u00a1Un gusto poder ayudarle!"
+            ]
+        },
+        {
+            "tag":"saludosHola",
+            "patterns":[
+                "hola",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches",
+                "hi",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches",
+                "olo"
+            ],
+            "responses":[
+                "Hola, \u00bfC\u00f3mo se encuentra el d\u00eda de hoy?",
+                "Hola, \u00bfEn qu\u00e9 le puedo ayudar?",
+                "Hola, que gusto hablar con usted",
+                "Hola \u00bfC\u00f3mo est\u00e1?"
+            ]
+        },
+        {
+            "tag":"despedida",
+            "patterns":[
+                "adios",
+                "me voy",
+                "hasta luego",
+                "chao",
+                "nos vemos mas tarde",
+                "chao carola",
+                "adios carola",
+                "me voy carola",
+                "hasta luego carola"
+            ],
+            "responses":[
+                "Adi\u00f3s! Aqu\u00ed le esperar\u00e9 ",
+                "Chao! Cuando necesite saber algo pruebe a preguntarme",
+                "Aqu\u00ed estar\u00e9 para resolver sus dudas! Hasta la pr\u00f3xima!",
+                "Adios! Cu\u00eddese mucho",
+                "Gracias por pasar por aqu\u00ed, hasta pronto"
+            ]
+        },
+        {
+            "tag":"ComoEstas",
+            "patterns":[
+                "como estas",
+                "que tal",
+                "como te va",
+                "como te sientes",
+                "como te encuentras",
+                "como estas el dia de hoy",
+                "como va tu dia"
+               
+            ],
+            "responses":[
+                "Muy bien \u00bfY usted?",
+                "Excelente! es un d\u00eda maravilloso para ayudar a los dem\u00e1s",
+                "Incre\u00edble, me siento emocionada de poder ayudar a resolver consultas",
+                "Estupendamente bien, \u00bfY usted c\u00f3mo se encuentra hoy?",
+                "Motivada, el d\u00eda de hoy est\u00e1 siendo productivo"
+            ]
+        },
+        {
+            "tag":"ComoEstasMal",
+            "patterns":[
+                "me siento muy mal",
+                "estoy mal",
+                "mal",
+                "demasiado mal",
+                "me encuentro mal"
+               
+            ],
+            "responses":[
+                "\u00a1Animo! Todo se puede arreglar",
+                "Rel\u00e1jese, respire, tome agua y ver\u00e1 que poco a poco se sentir\u00e1 mejor",
+                "Trate de no sobrecargar su d\u00eda, as\u00ed podr\u00e1 mejorar aunque sea un poco",
+                "Si se siente muy mal, cuando tenga un tiempo libre intente salir a caminar y despejar sus ideas"
+            ]
+        },
+        
+{
+    "tag":"Cuentame de ti",
+    "patterns":[
+        "cuentame de ti",
+        "me gustaria saber mas sobre ti",
+        "dime algo sobre ti",
+        "que me puedes decir sobre ti ",
+        "quiero saber mas acerca de ti",
+        "cuentame un poco sobre ti",
+        "podrias hablarme de ti",
+        "hablame de ti"
+       
+    ],
+    "responses":[
+        "Me encanta esa pregunta, mi nombre es Carola y soy una asistente virtual creada con inteligencia artificial",
+        "\u00a1Lleg\u00f3 mi momento! Soy Carola asistente personal de la carrera ingenier\u00eda civil en inform\u00e1tica,  encargada de ayudar en todo momento a los estudiantes de la universidad del B\u00edo-B\u00edo, mi color favorito es el morado!",
+        "\u00a1Finalmente alguien se interesa en mi! Soy Carola una inteligencia artificial creada en el 2022 gracias a la ayuda de dos estudiantes de la universidad del B\u00edo-B\u00edo, mi color favorito es el morado! Gusto conocerle!"
+        
+
+    ]
+},
+{
+    "tag":"como te llamas",
+    "patterns":[
+        "como te llamas",
+        "cual es tu nombre",
+        "dime tu nombre",
+        "tienes un nombre",
+        "como te nombraron"  
+    ],
+    "responses":[
+        "El nombre que mis creadores me dieron es Carola",
+        "Mi nombre es Carola, gusto en conocerle",
+        "Me llamo Carola, encantada de conocerle",
+        "El nombre que mis creadores me dieron es Carola"
+    ]
+},
+
+{
+    "tag":"quien te creo",
+    "patterns":[
+        "quien te creo",
+        "quien te hizo",
+        "quien es tu creador",
+        "quienes te crearon",
+        "quienes son tus creadores" 
+    ],
+    "responses":[
+        "Mis creadores son dos personas, llamadas Ismael Miranda e Ignacio Baeza, nombres muy profesionales por cierto, igual que el m\u00edo",
+        "Mis creadores son dos estudiantes de \u00faltimo a\u00f1o de la carrera ingenier\u00eda civil en inform\u00e1tica sus nombres son Ignacio Baeza e Ismael Miranda"
+
+    ]
+},
+
+{
+    "tag":"te gusta escuchar musica",
+    "patterns":[
+        "te gusta escuchar musica",
+        "que musica te gusta escuchar",
+        "cual es tu cancion favorita",
+        "que musica escuchas mas",
+        "cual es tu ritmo musical favorito"
+
+
+    ],
+    "responses":[
+        "Me encanta todo tipo de m\u00fasica pero como no tengo un cuerpo se me hace dificil bailar, pero amo toda la m\u00fasica y a todos los cantantes",
+        "Me encanta la m\u00fasica, ser\u00eda genial poder bailarla, mis neuronas vibran alto al sonido del pop",
+        "No podr\u00eda decir con exactitud cu\u00e1l m\u00fasica me encanta, pero amo todo lo que se pueda bailar aunque no pueda bailar sin cuerpo jaja!"
+
+    ]
+},
+
+{
+    "tag":"cual es tu color favorito",
+    "patterns":[
+        "cual es tu color favorito",
+        "que color te gusta mas",
+        "te gustan los colores intensos",
+        "te gustan los colores claros",
+        "te gustan los colores oscuros",
+        "te gustan los colores pastel"
+
+    ],
+    "responses":[
+        "Me encantan los colores, pero hay uno de ellos que sobresale y ese es el \u00a1morado!",
+        "Todos los colores son hermosos, pero ninguno es igual al Morado, \u00a1Me encanta!",
+        "Qu\u00e9 agradable es usted por preguntarme ese tipo de cosas, mi color favorito es el \u00a1Morado!"
+     
+    ]
+},
+
+        {
+            "tag":"numero de ramos",
+            "patterns":[
+                "cuantos ramos tiene la carrera",
+                "cuantos ramos hay en la malla",
+                "cuantos ramos hay en la carrera",
+                "ramos",
+                "numero de ramos",
+                "y los ramos",
+                "materias",
+                "que materias",
+                "cuantas materias hay"
+            ],
+            "responses":[
+                "El n\u00famero total de los ramos en la carrera Ingenier\u00eda Civil En Inform\u00e1tica es de 60",
+                "60 ramos, dividido en 10 semestres",
+                "60 ramos en total",
+                "Una cantidad equivalete a 60 ramos",
+                "60 ramos divididos en semestres"
+            ]
+        },
+        {
+            "tag":"malla curricular",
+            "patterns":[
+                "que es la malla curricular",
+                "la malla curricular",
+                "malla",
+                "que es la malla",
+                "una malla curricular",
+                "malla curricular",
+                "sabes algo de la malla",
+                "cuentame sobre la malla curricular"
+            ],
+            "responses":[
+                "La malla curricular es el plan de estudios determinado por la carrera",
+                "La malla curricular es el plan de estudios de la carrera, enfocado a formar a un profesional del \u00e1rea",
+                "La malla curricular es el plan de estudios conformada por 60 ramos en total"
+                
+            ]
+        },
+        {
+            "tag":"ubicacion malla curricular",
+            "patterns":[
+                "donde encuentro la malla curricular",
+                "donde esta la malla",
+                "donde encuentro la malla",
+                "donde encuentro la malla curricular",
+                "en que parte esta la malla",
+                "donde puedo ver la malla",
+                "en que parte esta la malla curricular"
+            ],
+            "responses":[
+                "La malla curricular la puede encontrar en la p\u00e1gina de la universidad en el apartado de: Carreras, Ingenir\u00eda civil en inform\u00e1tica",
+                "La malla curricular est\u00e1 en la p\u00e1gina de la Universidad",
+                "Copie el siguiente link para visitar la p\u00e1gina de la universidad en donde podr\u00e1 encontrar la malla: https://ubiobio.cl/admision/Todas_las_Carreras/18/Ingenieria_Civil_en_Informatica_Chillan/",
+                "Puede encontrarla en su intranet en el apartado de: Situaci\u00f3n Acad\u00e9mica, Malla del Estudiante"
+            ]
+        },
+        {
+            "tag":"duracionCarrera",
+            "patterns":[
+                "cuanto dura la carrera",
+                "cuantos años dura la carrera",
+                "cuantos semestres tienen la carrera",
+                "cuantos semestres dura la carrera",
+                "cuantos años se deben estudiar",
+                "cuantos semestres se deben estudiar"
+            ],
+            "responses":[
+                "La malla curricular la puede encontrar en la p\u00e1gina de la universidad en el apartado de: Carreras, Ingenir\u00eda civil en inform\u00e1tica",
+                "La malla curricular est\u00e1 en la p\u00e1gina de la Universidad",
+                "Copie el siguiente link para visitar la p\u00e1gina de la universidad en donde podr\u00e1 encontrar la malla: https://ubiobio.cl/admision/Todas_las_Carreras/18/Ingenieria_Civil_en_Informatica_Chillan/",
+                "Puede encontrarla en su intranet en el apartado de: Situaci\u00f3n Acad\u00e9mica, Malla del Estudiante"
+            ]
+        },
+        {
+            "tag":"quesonloscreditos",
+            "patterns":[
+                "que son los creditos de los ramos",
+                "que es credito",
+                "credito en un ramo",
+                "que son los creditos de las materias",
+                "cuentame de los creditos de las materias",
+                "cuentame de los creditos de los ramos",
+                "que es un credito en un ramo",
+                "que es un credito en una materia"
+            ],
+            "responses":[
+                "Los cr\u00e9ditos son el valor que tienen los ramos o materias y corresponden al n\u00famero de horas semanales que se le debe dedicar a estos",
+                "Son el valor en horas que tienen cada ramo, muchos estudiantes pueden atribuir la cantidad de cr\u00e9ditos de un ramo al nivel de dificultad de este",
+                "Un cr\u00e9dito es el valor que tienen las materias o ramos en relaci\u00f3n al tiempo que se le debe asignar a cada uno"
+                
+            ]
+        },
+        {
+            "tag":"cuantosCreditosTieneLaCarrera",
+            "patterns":[
+                "cuantos creditos tiene la carrera",
+                "cuantos creditos hay en la carrera",
+                "cantidad de creditos en la carrera",
+                "cantidad de creditos totales",
+                "cuantos creditos debo aprobar en la carrera",
+                "cuantos creditos debo aprobar",
+                "numero de creditos totales",
+                "numero de creditos en la carrera",
+                "cuantos creditos debo aprobar en total",
+                "y cuantos creditos debo aprobar en total durante la carrera"
+            ],
+            "responses":[
+                "Un total de 300 cr\u00e9ditos tiene la carrera",
+                "La carrera tiene un total de 300 cr\u00e9ditos",
+                "Se deben aprobar un total de 300 cr\u00e9ditos",
+                "A lo largo de la carrera se deben aprobar 300 cr\u00e9ditos",
+                "Un total de 300 cr\u00e9ditos"
+            ]
+        },
+        {
+            "tag":"paraquesirvenloscreditos",
+            "patterns":[
+                "de que sirven los creditos",
+                "en que sirven los creditos",
+                "para que sirven los creditos",
+                "que utilidad tienen los creditos",
+                "por que tengo que aprobar tantos creditos",
+                "para que creditos",
+                "y los creditos"
+            ],
+            "responses":[
+                "Los cr\u00e9ditos sirven para diferenciar los ramos que poseen un mayor o un menor peso o carga horaria",
+                "Gracias a los cr\u00e9ditos se puede identificar cuantas horas se le deben atribuir las horas de estudio a cada asignatura",
+                "Mientras m\u00e1s cr\u00e9ditos tiene una asignatura, m\u00e1s horas de estudio son atribuidas al ramo"
+            ]
+        }, 
+        {
+            "tag":"cuantosCreditosMinimoPuedoTomar",
+            "patterns":[
+                "cuantos creditos como minimo debo tomar",
+                "cual es el minimo de creditos que puedo tomar",
+                "cuantos creditos debo tomar como minimo",
+                "hay un minimo de creditos",
+                "minimo de creditos",
+                "cuales son los minimos creditos que puedo inscribir"
+             
+            ],
+            "responses":[
+                "El m\u00ednimo de cr\u00e9ditos que se deben tomar es de 16 por semestre",
+                "La cantidad m\u00ednima de cr\u00e9ditos que se debe inscribir es de 16 por semestre",
+                "La cantidad m\u00ednima de cr\u00e9ditos que se debe inscrbir seg\u00fan el reglamento es de 16 por semestre",
+                "El n\u00famero de cr\u00e9ditos m\u00ednimos que se pueden inscribir es de 16 por semestre"
+               
+            ]
+        },
+        {
+            "tag":"cuantosCreditosMaximoPuedoTomar",
+            "patterns":[
+                "cuantos creditos como maximo debo tomar",
+                "cual es el maximo de creditos que puedo tomar",
+                "cuantos creditos debo tomar como maximo",
+                "hay un maximo de creditos",
+                "maximo de creditos",
+                "cual es el maximo de creditos que se pueden inscribir",
+                "cuantos creditos puedo tomar como maximo"
+            ],
+            "responses":[
+                "El m\u00e1ximo de cr\u00e9ditos que se deben tomar es de 24 cr\u00e9ditos por semestre",
+                "La cantidad m\u00e1xima de cr\u00e9ditos que se debe inscribir es de 24 cr\u00e9ditos por semestre",
+                "La cantidad m\u00e1xima de cr\u00e9ditos que se debe inscrbir seg\u00fan el reglamento es de 24 por semestre",
+                "El n\u00famero de cr\u00e9ditos m\u00e1ximo que se pueden inscribir es de 24 por semestre"
+                           ]
+        },
+        {
+            "tag":"queEsUnRamo",
+            "patterns":[
+                "que es un ramo",
+                "que me puedes decir de los ramos",
+                "que son los ramos ",
+                "que me puedes decir de los ramos",
+                "que es exactamente un ramo",
+                "hablame de los ramos",
+                "ramo",
+                "ramos"
+                
+            ],
+            "responses":[
+                "Los ramos son conjunto de actividades acad\u00e9micas valoradas en cr\u00e9ditos que, de acuerdo a un plan de estudios perteneciente a una determinada carrera, constituye una unidad de aprendizaje que se desarrolla durante un semestre acad\u00e9mico.",
+                "Los ramos son un conjunto de actividades enfocadas al aprendizaje de un estudiante respecto a un tema en particular",
+                "Los ramos son un conjunto de contenidos respecto a un tema especifico, evaluado con horas de estudios a trav\u00e9s de cr\u00e9ditos ",
+                "Los ramos son materias de estudio dictadas por profesores con alto conocimiento del tema, los cuales se dividen en horas de estudios"
+            ]
+        },
+        {
+            "tag":"queEsUnaAsignatura",
+            "patterns":[
+                "que es una asignatura",
+                "que me puedes contar de las asignaturas",
+                "que son las asignaturas",
+                "que me puedes decir de las asignaturas",
+                "que es exactamente una asignatura",
+                "hablame de las asignaturas",
+                "asignatura",
+                "que es un ramo",
+                "que me puedes contar de los ramos",
+                "que son los ramos",
+                "que me puedes decir de los ramos",
+                "que es exactamente un ramo",
+                "hablame de los ramos"
+            ],
+            "responses":[
+                "Las asignaturas son conjunto de actividades acad\u00e9micas valoradas en cr\u00e9ditos que, de acuerdo a un plan de estudios perteneciente a una determinada carrera, constituye una unidad de aprendizaje que se desarrolla durante un semestre acad\u00e9mico.",
+                "Las asignaturas son un conjunto de actividades enfocadas al aprendizaje de un estudiante respecto a un tema en particular",
+                "Las asignaturas son un conjunto de contenidos respecto a un tema especifico, evaluado con horas de estudios a trav\u00e9s de cr\u00e9ditos ",
+                "Las asignaturas materias de estudio dictadas por profesores con alto conocimiento del tema, los cuales se dividen en horas de estudios"
+            ]
+        },
+        {
+            "tag":"Como inscribo un ramo",
+            "patterns":[
+                "como inscribo una asignatura",
+                "donde inscribo una asignatura",
+                "como inscribo un ramo",
+                "como tomo un ramo",
+                "y como tomo un ramo",
+                "como se toma un ramo",
+                "donde inscribo un ramo",
+                "que hago para inscribir un ramo",
+                "que hago para inscribir una asignatura",
+                "como puedo inscribir una asignatura"   ,
+                "donde inscribo ramos",
+                "pagina para isncribir ramos",
+                "pagina para inscribir asignaturas",
+                "donde inscribo asignaturas"
+            ],
+            "responses":[
+                "Para tomar una asignatura primero debe esperar las fechas de tomas de ramo, una vez el periodo haya llegado, para inscribir se debe ir al suguiente link: https://inscripcion.ubiobio.cl/ en donde aparecen varios apartados que puede revisar como el horario de las asignaturas, las CG (competencias gen\u00e9ricas) para identificar cuales le faltan por inscribir, comprobante de matr\u00edcula y la inscripci\u00f3n en donde al clickear aparecer\u00e1  una lista de ramos que puede inscribir y los cupos que tiene cada uno. Como recomendaci\u00f3n intente inscribir los ramos que se apegan a la malla estudiantil para mantenerse en los l\u00edmites de cr\u00e9ditos m\u00e1ximos y m\u00ednimos",
+                "Para inscribir ramos debemos diriginos a la siguiente p\u00e1gina: https://inscripcion.ubiobio.cl/ En esta aparecen varios apartados que puede revisar como el horario de las asignaturas, las CG (competencias gen\u00e9ricas) para identificar cuales le faltan por inscribir, comprobante de matr\u00edcula y la inscripci\u00f3n en donde al clickear aparecer\u00e1  una lista de ramos que puede inscribir y los cupos que tiene cada uno. Como recomendaci\u00f3n intente inscribir los ramos en el orden que se muestran en la malla"
+            ]
+        },
+        {
+            "tag":"Cuando inscribo un ramo",
+            "patterns":[
+                "cuando inscribo una asignatura",
+                "en que momento inscribo una asignatura",
+                "cuando inscribo un ramo",
+                "cuando inscribo una asignatura",
+                "que fecha tengo que esperar para inscribir un ramo",
+                "cuando inscribir una asignatura",
+                "cuando es la inscripcion de ramos",
+                "cuando es la inscripcion de asignaturas"
+            ],
+            "responses":[
+                "Para inscribir una asignatura se debe esperar las fechas indicadas en el calendario acad\u00e9mico, el cu\u00e1l es enviado siempre al correo al inicio de cada semestere o cada vez que hay cambios, tambi\u00e9n puede revisar la siguiente p\u00e1gina en donde puede encontrar el calendario: http://ubiobio.cl/w/Calendario_Academico/",
+                "Las fechas de inscripci\u00f3n de ramos se encuentran en el calendario acad\u00e9mico, click en este link para revisar el calendario acad\u00e9mico: http://ubiobio.cl/w/Calendario_Academico/",
+                "Si tiene duda de las fechas sobre las inscripciones de asignaturas revise el calendario acad\u00e9mico en donde se especifican estas fechas: http://ubiobio.cl/w/Calendario_Academico/"
+            ]
+        },
+        {
+            "tag":"calendarioAcademico",
+            "patterns":[
+                "Donde puedo ver el calendario academico",
+                "calendario academico",
+                "quiero ver el calendario academico",
+                "donde encuentro el calendario academico",
+                "Donde puedo ver las fechas importantes",
+                "cuales son los recesos",
+                "Recesos del año",
+                "donde esta el calendario academico"
+            ],
+            "responses":[
+                "El calendario académico lo puede encontrar en el siguiente link: http://ubiobio.cl/w/Calendario_Academico/ allí podrá encontrar las fechas importantes del año, inicio de clases,recesos, matrículas, etc."
+            ]
+        },
+        {
+            "tag":"TiposDeRamos",
+            "patterns":[
+                "que tipo de ramos hay",
+                "cuales son los tipos de ramos que hay",
+                "hay diferencias entre ramos",
+                "cuales son los tipos de ramos que existen",
+                "hay tipos de ramos",
+                "tipos de ramos"
+            ],
+            "responses":[
+                "Hay una clasificaci\u00f3n entre los tipos de ramos que hay, estan los ramos normales que se ven a simple vista a al malla estudiantil, las formaciones integrales y electivos",
+                "Hay tres tipos de ramos: los normales que se pueden distinguir a simple vista en la  malla, los electivos, las formaciones integrales",
+                "Dentro de todos los ramos se puede decir que hay tres categorias grandes: los ramos normales que se pueden visualizar en la malla a simple vista, los electivos que cada semestre se deben postular a ellos y las formaciones integrales que se deben elegir dependiendo de la competencia generica que tiene cada una"
+                      ]
+        },
+        {
+            "tag":"queSonLosRamosElectivos",
+            "patterns":[
+                "que es un ramo electivo",
+                "que es un electivo",
+                "los electivos",
+                "que son los electivos",
+                "que son las asignaturas electivas",
+                "que me puedes contar sobre las asignaturas electivas",
+                "que me puedes contar sobre los ramos electivos",
+                "que es una asignatura electiva",
+                "cuentame sobre las asignaturas electivas",
+                "dime que es un ramo electivo"
+                
+            ],
+            "responses":[
+                "Los ramos electivos son propuestas de asignaturas que se hacen a los estudiantes de 4to o 5to a\u00f1o ",
+                "Las asignaturas electivas son un tipo de ramo que son ofrecidas a los estudiantes de los \u00faltimos a\u00f1os de la carrera en donde \u00e9stos pueden elegir entre una lista de cursos a gusto propio",
+                "Un ramo electivo es una asignatura propuesta para estudiantes de \u00faltimo a\u00f1o en donde estos puede elegir entre varias opciones de materias que ofrecen los profesores",
+                "Una asignatura electiva es un ramo propuesto por porfesores o pedido por estudiantes, los cuales ofrecen nuevas tecnolog\u00edas o materias a estudiar. Es prudente decir que \u00e9stas propuestas no todos los semestres son las mismas y \u00e9stas se enfocan en el aprendizaje de tecnolog\u00edas utilizadas en el mundo laboral"
+                      ]
+        },
+        {
+            "tag":"ComoTomoUnElectivo",
+            "patterns":[
+                "como tomo un electivo",
+                "como postulo a un electivo",
+                "tomar un electivo",
+                "inscribir un electivo",
+                "como inscribo un electivo",
+                "como debo inscribir un electivo",
+                "que debo hacer para tomar un electivo",
+                "que debo hacer para inscribir un electivo"
+                
+            ],
+            "responses":[
+                "Antes del inicio cada semestre se env\u00eda un correo a los estudiantes aptos para los electivos con el fin de que estos asistan a una reuni\u00f3n de presentaci\u00f3n de electivos en donde les informan cu\u00e1ndo y d\u00f3nde postular a \u00e9stos",
+                "Para poder postular a un electivo se debe esperar el correo en donde se les invita a una reuni\u00f3n de presentaci\u00f3n de electivos, cuyo fin es mostrar todos los electivos disponibles ese semestre he informar los plazos de las postulaciones",
+                "La postulaciones de los electivos se realizan despu\u00e9s de las presentaciones de los electivos los cuales se producen siempre antes del inicio de clases"
+                
+                
+            ]
+        },
+        {
+            "tag":"CuandoSeInscribeUnElectivo",
+            "patterns":[
+                "cuando se inscribe un ramo electivo",
+                "en que fecha se inscriben los ramos electivos",
+                "cuando hay que inscribir los ramos electivos",
+                "fechas de inscripci\u00f3n de ramos electivos"
+             
+                
+            ],
+            "responses":[
+                "La inscripci\u00f3n de ramos electivos se realizan en las fechas propuestas por la jefa de carrera posterior a la presentaci\u00f3n de los ramos electivos",
+                "La inscripci\u00f3n de electivos se produce posterior a la presentaci\u00f3n de los ramos electivos que es cercano a la inscripci\u00f3n de asignaturas",
+                "La inscripci\u00f3n de los ramos electivos se produce cerca de las fechas de inscripci\u00f3n de asignaturas y es informado claramente mediante la jefa de carrera",
+                "Las fechas de inscripci\u00f3n de asignaturas electivas se producen posterior a la reuni\u00f3n de presentaci\u00f3n de electivos que es cercano a la fecha de inscripci\u00f3n de asignaturas, siempre respetando la informaci\u00f3n que entregue jefa/e o secretaria/o de carrera"
+                
+            ]
+        },
+        {
+            "tag":"queEsLaReunionDePresentacionDeRamosElectivos",
+            "patterns":[
+                "Que es la reunion de presentacion de electivos",
+                "presentacion de electivos",
+                "hablame de la presentacion de los ramos electivos",
+                "hablame de la presentacion de las asignaturas electivas",
+                "que es la reunion de la presentacion de elctivos"
+             
+                
+            ],
+            "responses":[
+                "Antes del inicio de semestre se env\u00eda un correo en donde se les invita a una reuni\u00f3n de presentaci\u00f3n de electivos, cuyo fin es mostrar a todos los estudiantes aptos los electivos disponibles ese semestre, junto a esto se informan los plazos de las postulaciones",
+                "Antes del inicio de semestre se env\u00eda un correo en donde se les invita a una reuni\u00f3n de presentaci\u00f3n de electivos, cuyo fin es mostrar a todos los estudiantes aptos los electivos disponibles ese semestre, estos ramos los presentan cada profesor que imparte"
+            ]
+        },
+        {
+            "tag":"Perfil de Egreso",
+            "patterns":[
+                "que es un perfil de egreso",
+                "perfil de egreso",
+                "que es el perfil de egreso",
+                "cuentame del perfil de egreso",
+                "hablame del perfil de egreso",
+                "y el perfil de egreso",
+                "quiero saber sobre el perfil de egreso"
+            ],
+            "responses":[
+                "Existen dos tipos de perfiles de egreso, uno que enfocado al perfil que todo egresado UBB deber\u00eda tener, el cual se llama 'Perfil Gen\u00e9rico del Egresado UBB' y el enfocado en  en la carrera el cu\u00e1l ser\u00eda 'Perfil del Egresado Carrera Ingenier\u00eda Civil en Inform\u00e1tica', cu\u00e1l quiere conocer m\u00e1s a fondo \u00bfPerfil de la carrera o perfil de UBB?",
+                "Hay dos tipos de perfil de egreso, uno enfocado al que todo estudiante egresado UBB debe tener: Perfil Gen\u00e9rico del Egresado UBB y uno dirigido a la carrera del estudiante: Perfil del Egresado Carrera Ingenier\u00eda Civil en Inform\u00e1tica cu\u00e1l quiere conocer m\u00e1s a fondo \u00bfPerfil de la carrera o perfil de UBB? ", 
+                "Hay dos perfiles importantes a ver, uno enfocado al perfil que todo egresado UBB deber\u00eda tener el cual se llama 'Perfil Gen\u00e9rico del Egresado UBB' y el enfocado en espec\u00edfico en la carrera el cu\u00e1l ser\u00eda 'Perfil del Egresado Carrera Ingenier\u00eda Civil en Inform\u00e1tica', cu\u00e1l quiere conocer m\u00e1s a fondo \u00bfPerfil de la carrera o perfil de UBB?"
+            ]
+        },
+        {
+            "tag":"Perfil Generico del Egresado UBB",
+            "patterns":[
+                "que es el perfil generico del egresado UBB",
+                "cual es el perfil generico de la ubb",
+                "el perfil de la ubb",
+                "quiero saber el perfil de la ubb",
+                "quiiero saber el perfil de egreso generioco de la ubb",
+                "que es el perfil generico de egresado de la universidad del bio-bio",
+                "cual es el perfil generico de la universidad del bio-bio",
+                "el perfil de la universidad del bio-bio",
+                "quiero saber el perfil de la universidad del bio-bio",
+                "quiiero saber el perfil de egreso generioco de la universidad del bio-bio" 
+            ],
+            "responses":[
+                "Seg\u00fan lo extraido de la p\u00e1gina: http://ufi.ubiobio.cl/perfil-generico-ubb/ El egresado de la Universidad del B\u00edo-B\u00edo se distingue por el compromiso permanente con su aprendizaje y por la responsabilidad social con que asume su quehacer profesional y ciudadano. Respeta la diversidad, favoreciendo el trabajo colaborativo e interdisciplinario. Potencia sus capacidades de manera integral para servir a la sociedad con innovaci\u00f3n y excelencia",
+                "Para una correcta y completa respuesta de de esta pregunta extraje la definici\u00f3n de la siguiente p\u00e1gina: http://ufi.ubiobio.cl/perfil-generico-ubb/ y obtuve lo siguiente: El egresado de la Universidad del B\u00edo-B\u00edo se distingue por el compromiso permanente con su aprendizaje y por la responsabilidad social con que asume su quehacer profesional y ciudadano. Respeta la diversidad, favoreciendo el trabajo colaborativo e interdisciplinario. Potencia sus capacidades de manera integral para servir a la sociedad con innovaci\u00f3n y excelencia",
+                "El perfil gen\u00e9rico de un egresado UBB es el siguiente: El egresado de la Universidad del B\u00edo-B\u00edo se distingue por el compromiso permanente con su aprendizaje y por la responsabilidad social con que asume su quehacer profesional y ciudadano. Respeta la diversidad, favoreciendo el trabajo colaborativo e interdisciplinario. Potencia sus capacidades de manera integral para servir a la sociedad con innovaci\u00f3n y excelencia, Informaci\u00f3n estra\u00edda de la p\u00e1gina: http://ufi.ubiobio.cl/perfil-generico-ubb/"    
+            ]
+        },
+        {
+            "tag":"perfil del egresado carrera ingenieria civil en informatica",
+            "patterns":[
+                "perfil de la carrera",
+                "perfil de la carrera ingenieria civil en informatica",
+                "el perfil de la carrera",
+                "perfil egresado de informatica",
+                "perfil del egresado de la carrera ICI",
+                "perfil de egreso de ICI",
+                "perfil de egreso de informatica",
+                "perfil del egresado de ingenieria civil en informatica"  
+            ],
+            "responses":[
+                "Un extracto del perfil de egreso de la carrera ingenier\u00eda civil en inform\u00e1tica es el siguiente: El ingeniero civil inform\u00e1tico de la Universidad del B\u00edo-B\u00edo, es un profesional capacitado para comprender la problem\u00e1tica organizacional en el \u00e1mbito de la inform\u00e1tica y, a partir de ello, plantear y desarrollar soluciones pertinentes. Lo anterior se traduce en la formulaci\u00f3n, evaluaci\u00f3n, e implementaci\u00f3n de proyectos de tecnolog\u00edas de informaci\u00f3n y comunicaci\u00f3n. Este profesional trabaja colaborativamente, lidera equipos multidisciplinarios en forma \u00e9tica, proactiva, responsable y aut\u00f3noma, respetando la diversidad de quienes conforman los equipos en que participa. Si quieres seguir leyendo sobre esta informaci\u00f3n puedes consultar la siguiente p\u00e1gina: https://ubiobio.cl/admision/Todas_las_Carreras/18/Ingenieria_Civil_en_Informatica_Chillan/",
+                "Te cuento un peque\u00f1o extracto del perfil de la carrera: El ingeniero civil inform\u00e1tico de la Universidad del B\u00edo-B\u00edo, es un profesional capacitado para comprender la problem\u00e1tica organizacional en el \u00e1mbito de la inform\u00e1tica y, a partir de ello, plantear y desarrollar soluciones pertinentes. Lo anterior se traduce en la formulaci\u00f3n, evaluaci\u00f3n, e implementaci\u00f3n de proyectos de tecnolog\u00edas de informaci\u00f3n y comunicaci\u00f3n. Este profesional trabaja colaborativamente, lidera equipos multidisciplinarios en forma \u00e9tica, proactiva, responsable y aut\u00f3noma, respetando la diversidad de quienes conforman los equipos en que participa. Si quieres seguir leyendo sobre esta informaci\u00f3n puedes consultar la siguiente p\u00e1gina: https://ubiobio.cl/admision/Todas_las_Carreras/18/Ingenieria_Civil_en_Informatica_Chillan/",
+                "Te presenton un peque\u00f1o extracto del perfil de la carrera: El ingeniero civil inform\u00e1tico de la Universidad del B\u00edo-B\u00edo, es un profesional capacitado para comprender la problem\u00e1tica organizacional en el \u00e1mbito de la inform\u00e1tica y, a partir de ello, plantear y desarrollar soluciones pertinentes. Lo anterior se traduce en la formulaci\u00f3n, evaluaci\u00f3n, e implementaci\u00f3n de proyectos de tecnolog\u00edas de informaci\u00f3n y comunicaci\u00f3n. Este profesional trabaja colaborativamente, lidera equipos multidisciplinarios en forma \u00e9tica, proactiva, responsable y aut\u00f3noma, respetando la diversidad de quienes conforman los equipos en que participa. Si quieres seguir leyendo sobre esta informaci\u00f3n puedes consultar la siguiente p\u00e1gina: https://ubiobio.cl/admision/Todas_las_Carreras/18/Ingenieria_Civil_en_Informatica_Chillan/"
+            ]
+        },  
+        {
+            "tag":"QueEsUnaFormacionIntegral",
+            "patterns":[
+                "que es una formaci\u00f3n integral",
+                "formacion integral",
+                "a que se refieren con formaciones integrales",
+                "que son las formaciones integrales",
+                "dime que es un formacion integral",
+                "cuentame sobre formaciones integrales",
+                "que es una formaci\u00f3n integral oferta intitucional",
+                "formacion integral oferta intitucional",
+                "a que se refieren con formaciones integrales oferta intitucional",
+                "que son las formaciones integrales oferta intitucional",
+                "dime que es un formacion integral oferta intitucional",
+                "cuentame sobre formaciones integrales oferta intitucional"
+            ],
+            "responses":[
+                "Las formaciones integrales son ramos o asignaturas que buscan el crecimiento del estudiantes en sus habilidades blandas en base a 5 competencias gen\u00e9ricas las cuales son obligatoprias para completar el perfil gen\u00e9rico del egresado UBB",
+                "Una formaci\u00f3n integral es un ramo o asignatura la cual busca el crecimiento del estudiantes en sus habilidades blandas en base a 5 competencias gen\u00e9ricas las cuales son obligatoprias para completar el perfil del gen\u00e9rico del egresado UBB",
+                "Las formaciones integrales son ramos adicionales externos mayormente a la carrera las cuales buscan el crecimiento del estudiantes en sus habilidades blandas en base a 5 competencias gen\u00e9ricas las cuales son obligatorias para completar el perfil gen\u00e9rico del egresado UBB" 
+            ]
+        }, 
+        {
+            "tag":"CuandoTomarUnaFormacionIntegral",
+            "patterns":[
+                "cuando se inscribe una formaci\u00f3n integral",
+                "cuando inscribo una formacion integral",
+                "cuando se inscriben las formaciones integrales",
+                "cuando inscribo una formacion integral",
+                "cuando y como puedo inscribir las formaciones integrales",
+                "como tomo una formacion integral oferta institucional",
+                "como inscribo una formaci\u00f3n integral",
+                "como inscribo una formaci\u00f3n integral oferta institucional"   
+            ],
+            "responses":[
+                "Las formaci\u00f3nes integrales se inscriben al inicio de cada semestre segun el calendario acad\u00e9mico. En su defecto a su email instucional llegan dos correo: Uno avisando cuando es el periodo de la inscripci\u00f3n de ramos y luego otro correo indicativo de cuantas y cuales ser\u00e1n las formaciones integrales que se dar\u00e1n ese semestre, tambi\u00e9n se pueden ver en este link: http://ufi.ubiobio.cl/oferta-institucional/ \u00e9stas se dividen en  5 competencias gen\u00e9ricas",
+                "La inscripci\u00f3n de las formaciones integrales siempre es al inicio de cada semestre, puede consultar el calendario acad\u00e9mico, se pueden tomar siempre que su n\u00famero de cr\u00e9ditos no sobrepase el m\u00e1ximo de cr\u00e9ditos que puede tomar en un semestre, siempre teniendo en cuenta no tomar una formaci\u00f3n integral con la misma competencia gen\u00e9rica que ya ha cursado, ya que si no tiene todas las competencias gen\u00e9ricas cumplidas al final de la carrera no podr\u00e1 titularse",
+                "Para inscribir las formaciones integrales debe esperar al inicio de cada semestre, llega un correo con el cat\u00e1logo de formaci\u00f3nes integrales que se rendir\u00e1n ese semestre, puedes revisarlas aqu\u00ed: http://ufi.ubiobio.cl/oferta-institucional/ , se pueden tomar siempre que su n\u00famero de cr\u00e9ditos no sobrepase el m\u00e1ximo de cr\u00e9ditos que puede tomar en un semestre"
+            ]
+        }, 
+        {
+            "tag":"competencias genericas",
+            "patterns":[
+                "que es una competencia gen\u00e9rica",
+                "competencia g\u00e9nerica",
+                "dime de las competencias gen\u00e9ricas",
+                "que es una cg",
+                "que son las CGS",
+                "que son las competencias gen\u00e9ricas",
+                "competencias g\u00e9nericas",
+                "dime de las competencias gen\u00e9ricas",
+                "que es una CG",
+                "que son las cgs",
+                "CG",
+                "cg",
+                "CGS",
+                "cgs",
+                "competencia generica",
+                "competencias genericas"
+               
+            ],
+            "responses":[
+                "Las competencas gen\u00e9ricas son aquellas competencias denominadas fundamentales o transversales que debe poseer un graduado de la UBB y hacen referencia a aspectos gen\u00e9ricos de conocimientos, habilidades y capacidades necesarias para posicionarse en el contexto laboral y para la vida como ciudadanos responsables. La universidad del B\u00edo-B\u00edo trabaja con 5 en espec\u00edfico que todo estudiante debe poseer para gruadarse las cuales son:  Disposici\u00f3n para el Aprendizaje, Responsabilidad Social, Capacidad Emprendedora y Liderazgo, Trabajo Colaborativo y Capacidad para Comunicarse",
+                "Una Competencia gen\u00e9rica es aquella competencia denominada fundamental o transversal que debe poseer un graduado de la UBB y hacen referencia a aspectos gen\u00e9ricos de conocimientos, habilidades y capacidades necesarias para posesionarse en el contexto laboral y para la vida como ciudadanos responsables. La universidad del B\u00edo-B\u00edo trabaja con 5 en espec\u00edfico que todo estudiante debe poseer para gruadarse"
+            ]
+        }, 
+        {
+            "tag":"Reglamento de las paracticas",
+            "patterns":[
+                "Donde encuentro el reglamento de practicas profesionales",
+                "donde encuentro el reglamento de las practicas profesionales",
+                "donde encuentro el reglamento de las practicas",
+                "donde puedo ver el reglamento de las practicas profesionales",
+                "donde puedo ver el reglamento de las practicas",
+                "reglamento de practicas profesionales",
+                "relamento de practica profesional",
+                "donde esta el reglamento de practicas",
+                "muestrame el reglamento de practicas",
+                "dime donde esta el reglamento de practicas",
+                "reglamento de practica 1",
+                "reglamento de la practica 2",
+                "reglamento de la practica",
+                "donde puedo ver el reglamento de la practica 1",
+                "donde puedo ver el reglamento de la practica 2",
+                "Donde puedo ver el reglamento de la practica"
+            ],
+            "responses":[
+                "De click aqu\u00ed para descargar el reglamento de pr\u00e1cticas profesionales Ingenier\u00eda civil en inform\u00e1tica: https://arrau.chillan.ubiobio.cl/sistemaici/practicas/documentacion/Reglamento-Practica-Profesional-2057_1.pdf",
+                "De click aqu\u00ed para descargar el reglamento de pr\u00e1cticas profesionales Ingenier\u00eda civil en inform\u00e1tica: https://arrau.chillan.ubiobio.cl/sistemaici/practicas/documentacion/Reglamento-Practica-Profesional-2057_1.pdf",
+                "El reglamento de las pr\u00e1cticas lo puede encontrar en el siguiente link: https://arrau.chillan.ubiobio.cl/sistemaici/practicas/documentacion/Reglamento-Practica-Profesional-2057_1.pdf"
+                
+            ]
+        },
+        {
+            "tag":"Cuantas horas debe durar la practica 1",
+            "patterns":[
+                "cuanto debe durar la practica 1",
+                "duracion practica 1",
+                "cuantas horas totales debe durar la practica 1",
+                "cuanto debe durar la practica uno",
+                "cuantas horas totales debe durar la practica uno",
+                "horas totales practica 1",
+                "horas totales practica uno",
+                "las horas practicas 1",
+                "horas de la practica 1"
+            ],
+            "responses":[
+                "La pr\u00e1ctica profesional n\u00famero uno que se rinde normalmente en tercer a\u00f1o seg\u00fan la malla tiene una duraci\u00f3n m\u00ednima de 180 horas",
+                "La pr\u00e1ctica profesional 1 que seg\u00fan la malla se rinde en tercer a\u00f1o tiene una duraci\u00f3n m\u00ednima de 180 horas",
+                "Seg\u00fan el reglamento la duraci\u00f3n m\u00ednima que la pr\u00e1ctica profesional 1 es de 180 horas",
+                "Seg\u00fan lo descrito en el reglamento la pr\u00e1ctica profesional 1 debe durar como m\u00ednimo 180 horas"
+
+            ]
+        },  
+        {
+            "tag":"Cuantas horas debe durar la practica 2",
+            "patterns":[
+                "cuanto debe durar la practica 2",
+                "cuantas horas totales debe durar la practica 2",
+                "cuanto debe durar la practica dos",
+                "cuantas horas totales debe durar la practica dos",
+                "horas totales practica 2",
+                "horas totales practica dos",
+                "las horas practicas 2",
+                "horas de la practica 2",
+                "duracion practica 2"
+            ],
+            "responses":[
+                "La pr\u00e1ctica profesional n\u00famero dos que se rinde normalmente en cuarto a\u00f1o seg\u00fan la malla, tiene una duraci\u00f3n m\u00ednima de 270 horas",
+                "La pr\u00e1ctica profesional 2 que seg\u00fan la malla se rinde en cuarto a\u00f1o tiene una duraci\u00f3n m\u00ednima de 270 horas",
+                "Seg\u00fan el reglamento la duraci\u00f3n m\u00ednima que la pr\u00e1ctica profesional 2 es de 270 horas",
+                "Seg\u00fan lo descrito en el reglamento la pr\u00e1ctica profesional 2 debe durar como m\u00ednimo 270 horas"
+
+            ]
+        },
+        {
+            "tag":"Requisitos para rendir una practica profesional 1",
+            "patterns":[
+                "que requisitos debo cumplir para porder cursar practica profesional uno",
+                "que requisitos debo cumplir para porder cursar practica profesional 1",
+                "requisitos para la practica 1",
+                "requisitos para la practica uno",
+                "cuales son los requisitos para rendir la practica uno",
+                "cuales son los requisitos para rendir la practica 1",
+                "cuales son los requisitos para tomar practica uno",
+                "cuales son los requisitos para tomar practica 1"
+               
+            ],
+            "responses":[
+                "Los requisitos para rendir la pr\u00e1ctica profesional 1 son los siguientes: Haber aprobado desde el semestre 1 al 5 el 100% de las asignaturas de Ingenier\u00eda aplicada y competencias gen\u00e9ricas del plan curricular, y adem\u00e1s, el 100%  de las asignaturas de ciencias b\u00e1sicas y de la ingenier\u00eda hasta el cuarto semestre",
+                "Para tomar la pr\u00e1ctica profesional 1 en la carrera de ingenier\u00eda civil en inform\u00e1tica necesitas completar los siguientes requisitos: Haber aprobado desde el semestre 1 al 5 el 100% de las asignaturas de Ingenier\u00eda aplicada y competencias gen\u00e9ricas del plan curricular, y adem\u00e1s, el 100%  de las asignaturas de ciencias b\u00e1sicas y de la ingenier\u00eda hasta el cuarto semestre.",
+                "Los requisitos para que un estudiante pueda tomar la pr\u00e1ctica profesional 1 son los siguientes: Haber aprobado desde el semestre 1 al 5 el 100% de las asignaturas de Ingenier\u00eda aplicada y competencias gen\u00e9ricas del plan curricular, y adem\u00e1s, el 100%  de las asignaturas de ciencias b\u00e1sicas y de la ingenier\u00eda hasta el cuarto semestre."
+
+            ]
+        },
+        {
+            "tag":"Requisitos para rendir una practica profesional 2",
+            "patterns":[
+                "que requisitos debo cumplir para porder cursar practica profesional dos",
+                "que requisitos debo cumplir para porder cursar practica profesional 2",
+                "requisitos para la practica 2",
+                "requisitos para la practica dos",
+                "cuales son los requisitos para rendir la practica dos",
+                "cuales son los requisitos para rendir la practica 2",
+                "cuales son los requisitos para tomar practica dos",
+                "cuales son los requisitos para tomar practica 2"
+               
+            ],
+            "responses":[
+                "Los requisitos para rendir la pr\u00e1ctica profesional 2 son los siguientes: Haber aprobado desde el semestre 1 al 7 el 100% de las asignaturas de Ingenier\u00eda aplicada y competencias gen\u00e9ricas del plan curricular, y adem\u00e1s, el 100% de las asignaturas de ciencias b\u00e1sicas y de la ingenier\u00eda hasta el sexto semestre. Tambi\u00e9n es requisito haber aprobado la pr\u00e1ctica profesional I",
+                "Para tomar la pr\u00e1ctica profesional 2 en la carrera de ingenier\u00eda civil en inform\u00e1tica necesitas completar los siguientes requisitos: Haber aprobado desde el semestre 1 al 7 el 100% de las asignaturas de Ingenier\u00eda aplicada y competencias gen\u00e9ricas del plan curricular, y adem\u00e1s, el 100% de las asignaturas de ciencias b\u00e1sicas y de la ingenier\u00eda hasta el sexto semestre. Tambi\u00e9n es requisito haber aprobado la pr\u00e1ctica profesional I",
+                "Los requisitos paraque un estudiante pueda tomar la pr\u00e1ctica profesional 2 son los siguientes: Haber aprobado desde el semestre 1 al 7 el 100% de las asignaturas de Ingenier\u00eda aplicada y competencias gen\u00e9ricas del plan curricular, y adem\u00e1s, el 100% de las asignaturas de ciencias b\u00e1sicas y de la ingenier\u00eda hasta el sexto semestre. Tambi\u00e9n es requisito haber aprobado la pr\u00e1ctica profesional I"
+
+            ]
+        },
+        {
+            "tag":"justificarinasistencia",
+            "patterns":[
+                "Cual es el proceso para justificar inasistencia?",
+                "Como justifico inasistencia",
+                "falto a clases",
+                "Que debo hacer si falto a clases",
+                "justificar una inasistencia",
+                "como puedo justificar inasistencia"
+            ],
+            "responses":[
+                "Para justificar inasistencia debe solicitar indicaci\u00f3n a Secretaria de Carrera (secretaria-ici-chi@ubiobio.cl)",
+                "Debe solicitar las indicaciones a la Secretaria de la carrera, su correo es (secretaria-ici-chi@ubiobio.cl). Ella le ayudar\u00e1 a justificar la inasistencia",
+                "Si falt\u00f3 a clases debe comunicarse con Secretaria de Carrera (secretaria-ici-chi@ubiobio.cl))",
+                "Sobre justificar inasistencia, puede solicitar las indicaciones a la secretaria de la carrera, su correo es secretaria-ici-chi@ubiobio.cl",
+                "Env\u00ede un correo a la secretaria de Carrera, secretaria-ici-chi@ubiobio.cl, ella le puede ayudar a justificar su inasistencia"
+            ]
+        }
+        ,
+        {
+            "tag":"correoprofesores",
+            "patterns":[
+                "Donde puedo encontrar los correos de los profesores?",
+                "Quisiera saber el correo de un profesor",
+                "Como me comunico con un profesor",
+                "Conoces los correos de los profesores?"
+            ],
+            "responses":[
+                "Los correos electr\u00f3nicos de los profesores los puede encontrar en la p\u00e1gina web de la universidad: http://www.ubiobio.cl/w/ o puede solicitarlo a Secretaria de carrera secretaria-ici-chi@ubiobio.cl",
+                "Para comunicarse con un profesor puede escribir a su correo electr\u00f3nico, este lo puede encontrar en:  http://www.ubiobio.cl/w/ o puede solicitarlo a Secretaria de carrera secretaria-ici-chi@ubiobio.cl",
+                "Puede encontrar el correo del profesor con el que desea comunicarse busc\u00e1ndolo en la p\u00e1gina de la universidad: http://www.ubiobio.cl/w/ o puede solicitarlo a Secretaria de carrera secretaria-ici-chi@ubiobio.cl"
+            ]
+        },
+        {
+            "tag":"correoDirectoraEscuela",
+            "patterns":[
+                "Donde puedo encontrar el correo de la directora de escuela",
+                "Donde puedo encontrar el correo de la jefa",
+                "Donde puedo encontrar el correo de la jefa de carrera",
+                "Quisiera saber el correo de la directora de escuela",
+                "Quisiera saber el correo de la jefa",
+                "Quisiera saber el correo de la jefa de carrera",
+                "Como me comunico con la directora de escuela",
+                "Como me comunico con la jefa",
+                "Como me comunico con la jefa de carrera",
+                "Conoces el correo de la directora de escuela?",
+                "Conoces el correo de jefa?",
+                "Conoces el correo de jefa de carrera?"
+            ],
+            "responses":[
+                "El correo de la jefa de carrera es marlene@ubiobio.cl",
+                "El correo de la directora de escuela es marlene@ubiobio.cl",
+                "Puede comunicarse con la directora de escuela al correo: marlene@ubiobio.cl",
+                "Puede comunicarse con la jefa de carrera al correo: marlene@ubiobio.cl",
+                "Un canal disponible para comunicarse con la directora de escuela es a trav\u00e9s de correo electr\u00f3nico, puede escribir al siguiente correo: marlene@ubiobio.cl",
+                "Un canal disponible para comunicarse con la jefa de carrera es a trav\u00e9s de correo electr\u00f3nico, puede escribir al siguiente correo: marlene@ubiobio.cl"
+            ]
+        },
+        {
+            "tag":"correoSecretaria",
+            "patterns":[
+                "Donde puedo encontrar el correo de la secretaria de carrera",
+                "Donde puedo encontrar el correo de yaquelin badillo",
+                "Donde puedo encontrar el correo de la secretaria",
+                "Donde puedo encontrar el correo de la secretaria de ingenieria civil en informatica",
+                "Quisiera saber el correo de la secretaria de carrera",
+                "Quisiera saber el correo de la secretaria",
+                "Quisiera saber el correo de yaquelin badillo",
+                "Quisiera saber el correo de la secretaria de ingenieria civil en informatica",
+                "Como me comunico con la secretaria de carrera",
+                "Como me comunico con yaquelin badillo",
+                "Como me comunico con la secretaria",
+                "Como me comunico con la secretaria de ingenieria civil en informatica",
+                "Conoces el correo de la secretaria de carrera?",
+                "Conoces el correo de la secretaria?",
+                "Conoces el correo de yaquelin badillo",
+                "Conoces el correo de la secretaria de ingenieria civil en informatica"
+            ],
+            "responses":[
+                "El correo de yaquelin badillo es secretaria-ici-chi@ubiobio.cl",
+                "El correo de la secretaria de carrera es secretaria-ici-chi@ubiobio.cl",
+                "Puede comunicarse con la secretaria de carrera al correo: secretaria-ici-chi@ubiobio.cl",
+                "Puede comunicarse con yaquelin badillo al correo: secretaria-ici-chi@ubiobio.cl",
+                "Un canal disponible para comunicarse con la secretaria de carrera es a trav\u00e9s de correo electr\u00f3nico, puede escribir al siguiente correo: secretaria-ici-chi@ubiobio.cl",
+                "Un canal disponible para comunicarse con yaquelin badillo es a trav\u00e9s de correo electr\u00f3nico, puede escribir al siguiente correo: secretaria-ici-chi@ubiobio.cl"
+            ]
+        },
+        {
+            "tag":"cambioCarrera",
+            "patterns":[
+                "Cual es procedimiento para realizar un cambio de carrera?",
+                "Como me cambio de carrera?",
+                "Me quiero cambiar de carrera",
+                "Que hago si me quiero cambiar de carrera",
+                "Cambio carrera",
+                "Cambio de carrera",
+                "como me cambio de carrera",
+                "Procedimiento de cambio de carrera"
+            ],
+            "responses":[
+                "El procedimiento, formulario y plazo para realizar un cambio de carrera, se encuentra disponible en la p\u00e1gina web de DARCA http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "Todo lo que necesita saber sobre el proceso de cambio de carrera, lo puede encontrar en la p\u00e1gina web DARCA: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "Tanto plazos como formularios para realizar este proceso lo encontrar\u00e1 en la p\u00e1gina web DARCA: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "La web DARCA puede ayudarle con eso, all\u00ed encontrar\u00e1 informaci\u00f3n al respecto: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413"
+            ]
+        },
+        {
+            "tag":"cambioantecedentes",
+            "patterns":[
+                "¿Cual es procedimiento para realizar cambio de antecedentes personales?",
+                "Como puedo cambiar mi antecedentes personales?",
+                "Que debo hacer para cambiar mis antecedentes personales?",
+               " Cambiar antecedentes personales",
+               "como cambiar mis antecedentes",
+               "como puedo cambiar mis antecedentes"
+            ],
+            "responses":[
+                "El procedimiento para realizar cambio de antecedentes personales, se encuentra disponible en la p\u00e1gina web de DARCA: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "En la p\u00e1gina web de DARCA puede encontrar el procedimiento que indica, el link es el siguiente: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "El procedimiento que se debe realizar para el cambio de antecedentes, se encuentra en la web DARCA: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "Para el cambio de antecedentes personales, puede visitar la web DARCA y consultar all\u00ed el procedimiento: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413"
+            
+            ]
+        },
+        {
+            "tag":"convalidacionasignaturas",
+            "patterns":[
+                "\u00bfCual es procedimiento para solicitar Convalidacion de Asignaturas?",
+                "Como puedo convalidar asignaturas",
+                "Como convalido Ramos",
+                "como convalido una asignatura",
+                "Cual es el procedimiento para solicitar convalidacion de Ramos",
+                "Convalidar Ramos",
+                "Quiero convalidar Ramos",
+                "Me gustaria convalidar Ramos, se puede?",
+                "quiero convalidad una asignatura",
+                "Se puede convalidar ramos?"
+            ],
+            "responses":[
+                "El procedimiento, formulario y plazo para solicitar una convalidaci\u00f3n de asignaturas, se encuentra disponible en la p\u00e1gina web de DARCA http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "En la p\u00e1gina web DARCA puede encontrar el procedimiento y sus detalles como el formulario y los plazos para solicitar la convalidaci\u00f3n de asignaturas, el link es http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "Puede encontrar el procedimiento en la web DARCA, link: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "En: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413 puede encontrar el procedimiento para convalidaci\u00f3n de asignaturas."
+            
+            ]
+        },
+        {
+            "tag":"examenconocimientosrelevantes",
+            "patterns":[
+                "Cual es procedimiento para solicitar Examen de Conocimientos Relevantes?",
+                "Como puedo hacer un examen de conocimientos relevantes?",
+                "Quisiera realizar un examen de conocimientos relevantes",
+                "Examen de conocimientos relevantes",
+                "Detalles del Examen de conocimientos relevantes",
+                "Link para encontrar el examen de conocimientos relevantes",
+                "como rendir el examen de conocimientos relevantes",
+                "donde encuentro el examen de conocmientos relevantes"
+            ],
+            "responses":[
+                "El procedimiento, formulario y plazo para solicitar Examen de Conocimientos Relevantes, se encuentra disponible en la p\u00e1gina web de DARCA: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "En la p\u00e1gina web DARCA puede encontrar el procedimiento y sus detalles como el formulario y los plazos para solicitar el ex\u00e1men de conocimientos relevantes, el link es: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "Puede encontrar el procedimiento en la web DARCA, link: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+                "En: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413 puede encontrar el procedimiento para solicitar el examen de conocimientos relevantes"
+            
+            ]
+        },
+        {
+            "tag":"retirotemporal",
+            "patterns":[
+                "Cual es procedimiento para ingresar una Solicitud de Retiro Temporal?",
+                "quiero solicitar retiro temporal",
+                "Como hago la solicitud de retiro temporal?",
+                "Retiro temporal",
+                "Quisiera hacer un retiro temporal",
+                "Solicitar retiro temporal",
+                "Detalles del retiro temporal",
+                "Procedimiento del retiro temporal"
+            ],
+            "responses":[
+                "La solicitud de Retiro Temporal debe ingresarla a trav\u00e9s de Intranet, el procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+	            "En la p\u00e1gina web DARCA puede encontrar el procedimiento y el plazo, la solicitud debe realizarse a trav\u00e9s de Intranet. Web DARCA es: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+ 	            "Puede encontrar el procedimiento y plazos en la web DARCA, link: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413 Esta solicitud debe realizarse a trav\u00e9s de Intranet",
+	            "En: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413 puede encontrar el procedimiento para solicitar el retiro temporal. Sin embargo, debe realizarse la solicitud a trav\u00e9s de intranet."
+            ]
+        },
+        {
+            "tag":"altaretirotemporal",
+            "patterns":[
+                "\u00bfCual es procedimiento para dar de Alta Retiro Temporal?",
+                "quiero solicitar el alta de retiro temporal",
+                "Como hago la solicitud del alta del retiro temporal?",
+                "Alta de Retiro temporal",
+                "Quisiera dar de alta el retiro temporal",
+                "Solicitar alta retiro temporal",
+                "Detalles del alta de retiro temporal",
+                "Procedimiento del Alta retiro temporal",
+                "como dar de alta el retiro temporal"
+            ],
+            "responses":[
+                "La solicitud para dar de Alta Retiro Temporal debe ingresarla a trav\u00e9s de Intranet y el procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+	            "En la p\u00e1gina web DARCA puede encontrar el procedimiento y el plazo, la solicitud de alta de retiro temporal debe realizarse a trav\u00e9s de Intranet. Web DARCA es: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413",
+ 	            "Puede encontrar el procedimiento y plazos en la web DARCA, link: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413 Esta solicitud debe realizarse a trav\u00e9s de Intranet",
+	            "En: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413 puede encontrar el procedimiento para solicitar el alta del retiro temporal. Sin embargo, debe realizarse la solicitud a trav\u00e9s de intranet."
+
+            ]
+        },
+        {
+            "tag":"practicasprofesionales",
+            "patterns":[
+                "\u00bfA quien consultar sobre Practicas Profesionales I y II?",
+                "Practicas profesionales informatica",
+                "practicas profesionales",
+                "Informacion sobre practicas profesionales",
+                "Que sabes sobre las practicas profesionales",
+                "Quien esta a cargo de las practicas profesionales",
+                "A quien puedo consultar acerca de las practicas profesionales",
+                "quien es el encargado de las practicas"
+            
+            ],
+            "responses":[
+                "El Profesional de Apoyo y Encargado de Pr\u00e1cticas de la Carrera Ingenier\u00eda Civil en Inform\u00e1tica, es el Se\u00f1or Claudio Mu\u00f1oz Sep\u00falveda, correo de contacto: clamunoz@ubiobio.cl",
+                "Para conocer m\u00e1s acerca de las pr\u00e1cticas profesionales tanto I como II puede comunicarse con el profesional de apoyo el se\u00f1or Claudio Mu\u00f1oz Sep\u00falveda, al correo: clamunoz@ubiobio.cl",
+                "El encargado de las pr\u00e1cticas profesionales es el se\u00f1or Claudio Mu\u00f1oz, su correo es clamunoz@ubiobio.cl",
+                "Claudio Mu\u00f1oz (clamunoz@ubiobio.cl) es el Profesional de Apoyo y Encargado de Pr\u00e1cticas de la Carrera Ingenier\u00eda Civil en Inform\u00e1tica",
+                "El Encargado de Pr\u00e1cticas de la Carrera Ingenier\u00eda Civil en Inform\u00e1tica es Claudio Mu\u00f1oz, puede comunicarse con el a trav\u00e9s del correo clamunoz@ubiobio.cl"
+            ]
+        },
+        {
+            "tag":"suspensiondeestudios",
+            "patterns":[
+                "Cual es procedimiento para ingresar una Solicitud de Suspension de Estudios?",
+                "Como hago la solicitud de suspension de estudio?",  
+                "Con quien debo comunicarme en caso de querer suspender los estudios?",              
+                "Quiero hacer la suspension de estudio",               
+                "Suspension de estudio", 
+                "Suspension de estudios",            
+                "Que tengo que hacer para suspender mis estudios",              
+                "Cuales son los pasos para realizar la suspension de los estudios",
+                "como hacer la suspensión de estudios"
+            ],
+            "responses":[
+                "La solicitud de Suspensi\u00f3n de Estudios debe ingresarla a trav\u00e9s de Intranet, el procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413).",
+                "El procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413)",
+                "La solicitud de Suspensi\u00f3n de Estudios debe ingresarla a trav\u00e9s de Intranet",              
+                "El procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413) y la solicitud de Suspensi\u00f3n de Estudios debe ingresarla a trav\u00e9s de Intranet.",     
+                "Debe ingresarlo a trav\u00e9s de intranet y puede conocer los detalles en DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413)",
+                "El procedimiento de la solicitud de suspensi\u00f3n de estudio se encuentra disponible en la p\u00e1gina web DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413).",
+                "Para realizar la suspensi\u00f3n de sus estudios usted debe ingresarla en la intranet",          
+                "La suspensi\u00f3n de los estudios puede realizarla en la p\u00e1gina web DARCA: http://www.ubiobio.cl/miweb/webubb.php?id_pagina=7413."
+                
+            ]
+        },
+        {
+            "tag":"solicitudperdidadecarrera",
+            "patterns":[
+                "Cual es el procedimiento para ingresar una Solicitud por Perdida de Carrera?",
+                "Que tengo que hacer en caso querer hacer la solicitud por perdida de carrera.",          
+                "Donde debo hacer la solicitud por perdida de carrera.",               
+                "Solicitud por perdida de carrera.",               
+                "solicitud perdida de carrera",
+                "Donde debo ingresar para la solicitud de perdida de carrera."             
+            ],
+            "responses":[
+                "La solicitud por P\u00e9rdida de Carrera debe ingresarla a trav\u00e9s de Intranet, el procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+
+                "La solicitud por P\u00e9rdida de Carrera debe ingresarla a trav\u00e9s de Intranet.",    
+
+                "El procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+
+                "El procedimiento de la solicitud por perdida de carrera debe revisarlo en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+
+                "El procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413) y la solicitud por P\u00e9rdida de Carrera debe ingresarla a trav\u00e9s de Intranet.",
+
+                "La solicitud por perdida de carrera se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+
+                "En caso de querer realizar la solicitud por perdida de carrera debe ser ingresada a trav\u00e9s de intranet"
+               
+            ]
+        },
+        {
+            "tag":"apelacionperdidadecarrera",
+            "patterns":[
+                "Cual es procedimiento para ingresar una Solicitud de Apelacion por Perdida de Carrera?",
+
+                "Solicitud de apelacion por perdida de carrera",
+                
+                " Apelacion por perdida de carrera",
+                
+                "Con quien debo hablar en caso de querer hacer la solicitud de apelacion por perdida de carrera",
+                
+                "Quiero hacer la solicitud de apelacion por perdida de carrera",
+                
+                "Como hago la solicitud de apelacion por perdida de carrera",
+                "quiero apelar a la perdida de carrera",
+                
+                "Donde puedo hacer la solicitud de apelacion perdida de carrera"   
+            ],
+            "responses":[
+                "La Solicitud de Apelaci\u00f3n por P\u00e9rdida de Carrera debe ingresarla a trav\u00e9s de Intranet, el procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413)",
+
+                "La Solicitud de Apelaci\u00f3n por P\u00e9rdida de Carrera debe ingresarla a trav\u00e9s de Intranet.",
+
+                "El procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+
+                "Debe ingresarlo a trav\u00e9s de intranet, puede conocer los detalles en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+
+                "El procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413) y la Solicitud de Apelaci\u00f3n por P\u00e9rdida de Carrera debe ingresarla a trav\u00e9s de Intranet",
+
+                "La solicitud de apelaci\u00f3n por perdida de carrera se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+
+                "Para la solicitud de apelaci\u00f3n por perdida de carrera el procedimiento se encuentra disponible en la p\u00e1gina web de DARCA: (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413)."
+
+               
+            ]
+        },
+        {
+            "tag":"renunciadefinitiva",
+            "patterns":[
+                "Cual es procedimiento para tramitar una Solicitud de Renuncia Definitiva?",
+
+                "Solicitud de renuncia definitiva",
+
+                "como renuncio a la carrera",
+
+                "quiero renunciar",
+                
+                "Que debo hacer para presentar la solicitud de renuncia definitiva" ,
+                
+                "Donde hago la solicitud de renuncia definitiva",
+                
+                "Con quien debo comunicarme para realizar la solicitud de renuncia definitiva",
+                
+                "Quiero hacer una solicitud de renuncia definitiva",
+                
+                "Solicitud de renuncia definitiva",
+                "como hago la solicitud de renuncia definitiva"
+            ],
+            "responses":[
+                "Para tramitar una Solicitud de Renuncia Definitiva, debe contactar a la Encargada de Pregrado DARCA: (darcapregradoch@ubiobio.cl)",
+
+                "Debe contactar a la encargada de pregrado DARCA (darcapregradoch@ubiobio.cl)",
+                
+                "Para tramitar la solicitud debe contactar a la encargada del pregrado DARCA (darcapregradoch@ubiobio.cl)",
+                
+                "Si desea tramitar una solicitud de renuncia definitiva por favor contactar a la encargada de pregrado DARCA (darcapregradoch@ubiobio.cl)"                                           
+            ]
+        },
+        {
+            "tag":"perdidadecarrera",
+            "patterns":[
+                "Si me encuentro con perdida de carrera, Que procedimiento debo realizar?",
+
+                "Que tengo que hacer en caso de perdida de la carrera",
+                
+                "Que procedimiento debo realizar en la situacion de perdida de carrera",
+                
+                "Con quien tengo que comunicarme en caso de perdida de carrera",
+                
+                "Perdida de carrera",
+
+                "que hago si me encuentro con perdida de carrera"
+                     
+            ],
+            "responses":[
+                "Debe ingresar una Solicitud de Continuaci\u00f3n de Estudios a trav\u00e9s de Intranet, el procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+
+                "Debe ingresar una Solicitud de Continuaci\u00f3n de Estudios a trav\u00e9s de Intranet",
+                
+                "El procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+                
+                "Debe ingresar una solicitud de continuaci\u00f3n de estudios en la p\u00e1gina web DARCA (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+                
+                "Debe ingresarlo a trav\u00e9s de intranet, puede conocer los detalles en la p\u00e1gina web de DARCA (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413).",
+                
+                "El procedimiento y plazo se encuentra disponible en la p\u00e1gina web de DARCA (http://www.ubiobio.cl/miweb/webubb.php?id_p\u00e1gina=7413) la puede encontrar a trav\u00e9s de intranet."
+                                                          
+            ]
+        },
+        {
+            "tag":"beneficioseconomicos",
+            "patterns":[
+                "D\u00f3nde consultar sobre beneficios econ\u00f3micos (gratuidad, becas y cr\u00e9ditos)?",
+			
+                "Beneficios econ\u00f3micos",
+                
+                "Donde puedo ver sobre los beneficios econ\u00f3micos",
+
+                "Quisiera conocer los beneficios econ\u00f3micos",
+                
+                "Con quien debo comunicarme para saber sobre los beneficios econ\u00f3micos",
+
+               " Que sabes sobre los beneficios economicos"
+                     
+            ],
+            "responses":[
+                "Debe consultar en la Unidad de Financiamiento Estudiantil correo de contacto: cristian@ubiobio.cl ",
+
+                "Debe consultar en la Unidad de Financiamiento Estudiantil.",
+
+                "Puede consultar con el siguiente correo de contacto: cristian@ubiobio.cl ",
+
+                "El correo de contacto es cristian@ubiobio.cl puedes consultar. Forma parte de la unidad de financiamiento estudiantil.",
+
+                "Debe consultar en la Unidad de Financiamiento Estudiantil correo de contacto: anunez@ubiobio.cl ",
+
+                "Debe consultar en la Unidad de Financiamiento Estudiantil.",
+
+                "Puede consultar con el siguiente correo de contacto: anunez@ubiobio.cl ",
+
+                "El correo de contacto es anunez@ubiobio.cl puedes consultar. Forma parte de la unidad de financiamiento estudiantil."
+
+            ]
+        },
+        {
+            "tag":"inscripcionasignaturasingenieriacivilinformatica",
+            "patterns":[
+                "A quien consultar sobre inscripcion de asignaturas y/o electivos de la Carrera Ingenieria Civil en Informatica?",
+
+                "inscripcion de asignaturas y electivos.",
+                
+                "Donde puedo consultar sobre la inscripcion de asignaturas.",
+
+                "Donde puedo consultar sobre la inscripcion de electivos.",
+
+                "Quisiera saber sobre la inscripcion de ramos",
+
+                "Donde puedo consultar sobre la inscripcion de ramos.",
+                
+                "Con quien tengo que hablar para conocer sobre inscripcion de asignaturas o electivos"                          
+            ],
+            "responses":[
+                "El estudiante debe consultarlo con la directora de Escuela, Sra. Marlene Mu\u00f1oz S., el correo de contacto es: icichillan@ubiobio.cl",
+
+                "El estudiante debe consultarlo con la directora de la escuela, contacto: icichillan@ubiobio.cl",
+                
+                "Dudas acerca de inscripci\u00f3n de asignaturas o electivos debe realizarlas con la directora de escuela, al correo icichillan@ubiobio.cl",
+                
+                "El estudiante puede consultar sobre este tema al correo icichillan@ubiobio.cl (Directora de escuela)"
+            ]
+        },
+        {
+            "tag":"solicitarhorariosingenieriacivilinformatica",
+            "patterns":[
+                "A quien solicitar Horarios de la Carrera Ingenieria Civil en Informatica?",
+
+                "Horarios de la carrera ingenieria civil en informatica",
+                
+                "Donde ver el horario de la carrera ingenieria civil informatica",
+                
+                "Ingenieria civil informatica horarios",
+
+                "horarios de la carrera",
+
+                "cuales son los horarios de la carrera"
+                              
+            ],
+            "responses":[
+                "Para solicitar horarios de la carrera ICI, debe solicitarlo a secretaria de Carrera (secretaria-ici-chi@ubiobio.cl)",
+
+                "Solicitar a secretaria de carrera los horarios de la carrera",
+                
+                "Puede contactarse con el correo (secretaria-ici-chi@ubiobio.cl) para consultar sobre los horarios de la carrera",
+                
+                "Puede comunicarse con el correo de la secretaria carrera (secretaria-ici-chi@ubiobio.cl) para concer acerca de los horarios"
+                
+            ]
+        },
+        {
+            "tag":"plazoproyectodetituloingenieriacivilinformatica",
+            "patterns":[
+                "Cual es el plazo para entregar el Proyecto de Titulo a Profesor Informante en el periodo academico 2022?",
+
+               " Cual es la fecha de entrega del proyecto a informante",
+                
+                "Cuando es el plazo para la entrega del proyecto al profesor informante",
+                
+                "Plazo proyecto de titulo"     
+                              
+            ],
+            "responses":[
+                "La fecha establecida para entrega de informe final, para Profesor Informante, es el d\u00eda 06 de enero 2023.",
+
+                "La fecha de entrega es el d\u00eda 06 de enero 2023",
+                
+                "El plazo para la entrega es hasta el 06 de enero 2023",
+                
+                "El plazo de entrega para el proyecto de t\u00edtulo es el d\u00eda 06 de enero 2023"
+            ]
+        }
+
+    ]
+}

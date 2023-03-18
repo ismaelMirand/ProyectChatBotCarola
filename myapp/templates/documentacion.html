@@ -1,0 +1,119 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carola</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script>
+        function scrollDiv(){
+            document.getElementById('final').scrollIntoView(true);
+        }
+    </script>
+
+</head>
+
+<body onload="scrollDiv();">
+    <div class="chatBot">
+
+        <!-- --barra superior chatbot ------>
+
+        <div class="barraSuperior">
+            <div class="row">
+                <div class="col">
+                    <div class="row" style="margin-top: 0.5rem;">
+
+                        <div class="col" style="padding-right: 0px; padding-left: 1.1rem;">
+                            <img src="https://media-public.canva.com/04DPQ/MAFF1w04DPQ/1/s-1.svg" class="perfil perfilBot redondo" style="margin:0px; background-color: transparent !important;" alt="Imagen Bot">
+                        </div>
+        
+                        <div class="col" style="padding-right: 0px;padding-left: 0px;">
+                            <p class="nombreBot" style="padding:0px">Carola</p>
+                        </div>
+        
+                        <div class="col" style="padding-right: 0px; padding-left: 0.3rem;">
+                            <img src="{% static 'images/ubb.png' %}" class="ubb" style="margin:0px" alt="Imagen Bot">
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="row" style="padding-top: 0.6rem;">
+                        <div class="col">
+                            
+                        </div>
+        
+                        <div class="col">
+                            <a href="{% url 'comentario' %}"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chat-fill" viewBox="0 0 16 16">
+                                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                              </svg></a>
+                        </div>
+        
+                        <div class="col">
+                            <a href="{% url 'chat' %}" class="volver"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                              </svg></a>
+                        </div>
+        
+                        <div class="col" style="padding-right: 1.2rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                              </svg>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+        <!-- ------------------------------>
+        <!-- ---------Fecha------------ -->
+
+        <div class="divFecha">
+            <p class="fecha">{{date}}</p>
+        </div>
+
+        <!-- ---------------------------- -->
+        <!-- conversación chatbot -->
+        <div id="conv" class="conversacion">
+            
+            <h5>Ayuda</h5>
+            <div class="textoDocumentacion"> 
+                <p>Carola es una Inteligencia Artificial que pertenece a la Universidad del Bío-Bío. Esta te ayudará a resolver la mayoría de tus dudas.</p><br>
+                <p>Puedes escribir tu pregunta en el espacio destinado para ello en la parte inferior de la ventana del Chat.</p><br>
+                <p>En el botón                             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="black" class="bi bi-chat-fill" viewBox="0 0 16 16">
+                    <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                  </svg> podrás dejarnos tus comentarios para retroalimentación, críticas constructivas o avisarnos de algún problema.</p><br>
+                <p>Cada vez que recibas una respuesta de Carola, tendrás la opción de valorar negativamente la respuesta si esta no te fue útil. Esto lo haces presionando el botón                         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="black" class="bi bi-hand-thumbs-down-fill" viewBox="0 0 16 16">
+                    <path d="M6.956 14.534c.065.936.952 1.659 1.908 1.42l.261-.065a1.378 1.378 0 0 0 1.012-.965c.22-.816.533-2.512.062-4.51.136.02.285.037.443.051.713.065 1.669.071 2.516-.211.518-.173.994-.68 1.2-1.272a1.896 1.896 0 0 0-.234-1.734c.058-.118.103-.242.138-.362.077-.27.113-.568.113-.856 0-.29-.036-.586-.113-.857a2.094 2.094 0 0 0-.16-.403c.169-.387.107-.82-.003-1.149a3.162 3.162 0 0 0-.488-.9c.054-.153.076-.313.076-.465a1.86 1.86 0 0 0-.253-.912C13.1.757 12.437.28 11.5.28H8c-.605 0-1.07.08-1.466.217a4.823 4.823 0 0 0-.97.485l-.048.029c-.504.308-.999.61-2.068.723C2.682 1.815 2 2.434 2 3.279v4c0 .851.685 1.433 1.357 1.616.849.232 1.574.787 2.132 1.41.56.626.914 1.28 1.039 1.638.199.575.356 1.54.428 2.591z"/>
+                </svg> al costado derecho de la respuesta. </p><br>
+                <p>También cada respuesta de Carola vendrá acompañada de 2 preguntas sugeridas, si alguna te parece interesante puedes dar clic en ella para preguntarla automáticamente.</p><br>
+                <p>En el botón <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="black" class="bi bi-question-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.475 5.458c-.284 0-.514-.237-.47-.517C4.28 3.24 5.576 2 7.825 2c2.25 0 3.767 1.36 3.767 3.215 0 1.344-.665 2.288-1.79 2.973-1.1.659-1.414 1.118-1.414 2.01v.03a.5.5 0 0 1-.5.5h-.77a.5.5 0 0 1-.5-.495l-.003-.2c-.043-1.221.477-2.001 1.645-2.712 1.03-.632 1.397-1.135 1.397-2.028 0-.979-.758-1.698-1.926-1.698-1.009 0-1.71.529-1.938 1.402-.066.254-.278.461-.54.461h-.777ZM7.496 14c.622 0 1.095-.474 1.095-1.09 0-.618-.473-1.092-1.095-1.092-.606 0-1.087.474-1.087 1.091S6.89 14 7.496 14Z"/>
+                  </svg> podrás acceder a esta página de ayuda cada vez que lo necesites!</p><br>
+                <p>Universidad del Bío-Bío.</p><br>
+            </div>
+
+        </div>
+
+        <!-- barra inferior chatbot -->
+
+        <div class="barraInferior">
+           
+        </div>
+
+    </div>
+    <br>
+
+</body>
+
+</html>

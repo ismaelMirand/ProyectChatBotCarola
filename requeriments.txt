@@ -1,0 +1,10 @@
+pip install nltk
+pip install numpy
+pip install tflearn
+pip install tensorflow
+pip install matplotlib
+pip install dload
+pip install more-itertools
+pip install django
+pip install pyrebase
+pip install pyrebase4

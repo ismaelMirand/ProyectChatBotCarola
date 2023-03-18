@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My Tasks!</h2>
+    
+    <form action="/"><button> a </button></form>
+    
+    <ul>
+    {% for t in tasks %}
+        <li>{% if t.done == False %} ✗ {% else %} ✅ {% endif %}Title: {{t.title}}</li>
+        <p> Project: {{t.project.name}}</p>
+        <p> Status: {% if t.done == False%} ✗ {% else %} ✅{% endif %}</p>
+        <button> ✅ Done </button>
+    {% endfor %}
+    </ul>
+</body>
+</html>
